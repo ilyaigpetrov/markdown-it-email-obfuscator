@@ -1,7 +1,7 @@
 {
   "name": "markdown-it-email-obfuscator",
   "version": "0.0.1",
-  "description": "Converts email autolink, e.g. <homer.j.simpson@example.com>, to an obfuscated with html entities link: <a href=\"mailto:_obfuscated_\">_obfuscated_</a>.",
+  "description": "Converts autolink with an email to an obfuscated with html entities link.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +14,10 @@
   "license": "GNU GPLv3",
   "devDependencies": {
     "markdown-it": "^8.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilyaigpetrov/markdown-it-email-obfuscator.git"
+  },
+  "keywords": ["markdown-it-plugin", "email", "obfuscation"]
 }
