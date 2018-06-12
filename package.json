@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-email-obfuscator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Converts autolink with an email to an obfuscated with html entities link.",
   "main": "index.js",
   "scripts": {
