@@ -1,6 +1,6 @@
 'use strict';
 
-const escapeHtml = require('./escapeHtml');
+const escapeHtml = require('markdown-it/lib/common/utils').escapeHtml;
 const EMAIL_RE = /^<([a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*)>/;
 
 module.exports = (md, opts) => {
