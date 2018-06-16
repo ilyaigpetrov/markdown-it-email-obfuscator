@@ -16,3 +16,7 @@ const md = require('markdown-it')()
 const input = 'AA<homer.j.simpson@example.com>BB';
 console.log(md.render(input));
 ```
+## License
+
+[GNU GPL](./LICENSE).  
+Contact me if you need a diffrent license.
