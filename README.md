@@ -7,6 +7,10 @@ _obfuscated_ looks like: `&#104;&#111;&#109;&#101;&#114;&#46;&#106;&#46;&#115;&#
 
 ## Install
 
+`npm install --save markdown-it-email-obfuscator`
+
+## Use
+
 ```js
 'use strict';
 
